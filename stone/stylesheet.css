@@ -1,0 +1,131 @@
+/* remove built-in styling */
+
+html, html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+img {
+  width: 100%;
+}
+
+
+
+
+/*        */
+
+body {
+  background-color: #dedee0;
+}
+
+#stone {
+  width: 1000px;
+  position: fixed;
+  z-index: -2;
+  margin: auto;
+  top: 50%;
+  left: 50%;
+  margin-top: -400px;
+  margin-left: -500px;
+}
+
+
+
+#frame {
+  width: 730px;
+  height: 340px;
+  position: fixed;
+  margin: auto;
+  top: 50%;
+  left: 50%;
+  margin-top: -170px;
+  margin-left: -365px;
+}
+
+.track {
+  width: 121.6px;
+  height: 340px;
+  background-color: white;
+  opacity: 0;
+  margin:auto;
+  display: inline-block;
+  position: absolute;
+}
+
+#track1 {
+  left: 20px;
+  height: 300px;
+  width: 160px;
+  top: 40px;
+  border-top-left-radius: 210px;
+  border-bottom-left-radius: 220px;
+}
+
+#track2 {
+  left: 160px;
+  height: 330px;
+  top: 30px;
+}
+
+#track3 {
+  left: 280px;
+}
+
+#track4 {
+  left: 372px;
+  height: 325px
+}
+
+#track5 {
+  left: 489px;
+  height: 310px;
+  border-bottom-right-radius: 60px
+}
+
+#track6 {
+  left: 550px;
+  height: 280px;
+  width: 190px;
+  top: 70px;
+  border-top-right-radius: 200px;
+  border-bottom-right-radius: 200px;
+}
