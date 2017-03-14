@@ -54,16 +54,41 @@ img {
 /*        */
 
 body {
-  background-color: #e0e0e0;
   font-family: Courier;
   font-size: 18px;
   color: black;
 }
 
-h1, h2, h3, h4, p {
+.toggle {
+  display: none;
+}
+
+#frame {
+  width: 80vw;
+  max-width: 700px;
   position: relative;
   left: 20px;
-  top: 20px;
+}
+
+.indent {
+  position: relative;
+  left: 40px;
+}
+
+.box {
+  position: relative;
+  left: 40px;
+}
+
+h1, p {
+  margin-top: 18px;
+}
+
+h1 {
+}
+
+span {
+  color: #848484;
 }
 
 h1 {
@@ -75,10 +100,15 @@ h3 {
 }
 
 h4 {
-  color: #848484;
+  position: relative;
+  left: 40px;
 }
 
+h5 {
+  text-decoration: underline;
+  margin-top: 18px;
+}
 
-a:visited {
-  color: white;
+a {
+  color: #848484;
 }
