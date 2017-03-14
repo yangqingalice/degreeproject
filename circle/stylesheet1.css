@@ -53,67 +53,15 @@ img {
 
 /*        */
 
-body {
-  font-family: Courier;
-  font-size: 18px;
-  color: black;
-}
+#reddot {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  background-color: red;
+  position: absolute;
+  margin-left: 50vw;
+  margin-top: 50vh;
+  left: -25px;
+  top: -25px;
 
-.toggle {
-  display: none;
-}
-
-#frame {
-  width: 80vw;
-  max-width: 700px;
-  position: relative;
-  left: 20px;
-}
-
-.indent {
-  position: relative;
-  left: 40px;
-}
-
-.box {
-  position: relative;
-  left: 40px;
-}
-
-h1, p {
-  margin-top: 18px;
-}
-
-h1 {
-}
-
-span {
-  color: #848484;
-}
-
-h1 {
-  text-decoration: underline;
-}
-
-h3 {
-  margin-top: 36px;
-}
-
-h4 {
-  position: relative;
-  left: 40px;
-}
-
-h5 {
-  text-decoration: underline;
-  margin-top: 18px;
-}
-
-a {
-  color: #848484;
-}
-
-#space {
-  height: 48px;
-  width: 20px;
 }
