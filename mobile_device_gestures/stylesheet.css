@@ -53,84 +53,25 @@ img {
 
 /*        */
 
-body {
-  font-family: Courier;
-  font-size: 18px;
-  color: black;
+div {
+  width: 24vw;
+  height: 24vw;
+  border-radius: 12vw;
+  background-color: red;
+  position: absolute;
+  left: 38vw;
+  margin-top: 50vh;
+  top: -12vw;
 }
 
-.toggle {
-  display: none;
+div.dblclick {
+  background-color: yellow;
 }
 
-#frame {
-  width: 80vw;
-  max-width: 700px;
-  position: relative;
-  left: 20px;
+div.click {
+  background-color: orange;
 }
 
-.indent {
-  position: relative;
-  left: 40px;
-}
-
-.box {
-  position: relative;
-  left: 40px;
-}
-
-h1, p {
-  margin-top: 18px;
-}
-
-h1 {
-}
-
-span {
-  color: #848484;
-}
-
-h1 {
-  text-decoration: underline;
-}
-
-h3 {
-  margin-top: 36px;
-}
-
-h4 {
-  position: relative;
-  left: 40px;
-}
-
-h5 {
-  text-decoration: underline;
-  margin-top: 18px;
-  color: #848484;
-}
-
-a {
-  color: #82c345;
-}
-
-#space {
-  height: 48px;
-  width: 20px;
-}
-
-table, th, td {
-  border: 1px solid black;
-  margin-top: 18px;
-}
-
-th, td {
-  padding: 18px;
-  text-align: left;
-}
-
-
-
-#touchtable {
-  width: 80vw;
+div.swipe {
+  background-color: green;
 }
