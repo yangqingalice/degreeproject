@@ -13,7 +13,7 @@ body {
 	height: 50px;
 	border-radius: 50px;
 	-webkit-radius: 50px;
-	background-color: blue;
+	background-color: red;
 }
 </style>
 </head>
@@ -43,8 +43,8 @@ var sphere = $("#sphere");
 
 if (window.DeviceMotionEvent != undefined) {
 	window.ondevicemotion = function(e) {
-		ax = event.accelerationIncludingGravity.x * 10;
-		ay = event.accelerationIncludingGravity.y * 10;
+		ax = event.accelerationIncludingGravity.x * 5;
+		ay = event.accelerationIncludingGravity.y * 5;
 		$("#accelerationX").innerHTML = e.accelerationIncludingGravity.x;
 		$("#accelerationY").innerHTML = e.accelerationIncludingGravity.y;
 		$("#accelerationZ").innerHTML = e.accelerationIncludingGravity.z;
