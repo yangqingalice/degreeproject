@@ -9,10 +9,8 @@ body {
 }
 #sphere {
 	position: absolute;
-	width: 50px;
+	width: 500px;
 	height: 50px;
-	border-radius: 50px;
-	-webkit-radius: 50px;
 	background-color: red;
 }
 </style>
@@ -73,7 +71,7 @@ if (window.DeviceMotionEvent != undefined) {
 function boundingBoxCheck(){
 	if (x<0) { x = 0; vx = -vx; }
 	if (y<0) { y = 0; vy = -vy; }
-	if (x>document.documentElement.clientWidth-50) { x = document.documentElement.clientWidth-50; vx = -vx; }
+	if (x>document.documentElement.clientWidth-500) { x = document.documentElement.clientWidth-500; vx = -vx; }
 	if (y>document.documentElement.clientHeight-50) { y = document.documentElement.clientHeight-50; vy = -vy; }
 
 }
