@@ -39,20 +39,20 @@ var x = 0, y = 0,
     vx = 0, vy = 0,
 	ax = 0, ay = 0;
 
-var sphere = $("#sphere");
+var sphere = document.getElementById("sphere");
 
 if (window.DeviceMotionEvent != undefined) {
 	window.ondevicemotion = function(e) {
 		ax = event.accelerationIncludingGravity.x * 5;
 		ay = event.accelerationIncludingGravity.y * 5;
-		$("#accelerationX").innerHTML = e.accelerationIncludingGravity.x;
-		$("#accelerationY").innerHTML = e.accelerationIncludingGravity.y;
-		$("#accelerationZ").innerHTML = e.accelerationIncludingGravity.z;
+		document.getElementById("accelerationX").innerHTML = e.accelerationIncludingGravity.x;
+		document.getElementById("accelerationY").innerHTML = e.accelerationIncludingGravity.y;
+		document.getElementById("accelerationZ").innerHTML = e.accelerationIncludingGravity.z;
 
 		if ( e.rotationRate ) {
-			$("#rotationAlpha").innerHTML = e.rotationRate.alpha;
-			$("#rotationBeta").innerHTML = e.rotationRate.beta;
-			%("#rotationGamma").innerHTML = e.rotationRate.gamma;
+			document.getElementById("rotationAlpha").innerHTML = e.rotationRate.alpha;
+			document.getElementById("rotationBeta").innerHTML = e.rotationRate.beta;
+			document.getElementById("rotationGamma").innerHTML = e.rotationRate.gamma;
 		}
 	}
 
