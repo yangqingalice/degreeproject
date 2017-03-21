@@ -39,12 +39,12 @@ var x = 0, y = 0,
     vx = 0, vy = 0,
 	ax = 0, ay = 0;
 
-var sphere = document.getElementById("sphere");
+var sphere = $("#sphere");
 
 if (window.DeviceMotionEvent != undefined) {
 	window.ondevicemotion = function(e) {
-		ax = event.accelerationIncludingGravity.x * 5;
-		ay = event.accelerationIncludingGravity.y * 5;
+		ax = event.accelerationIncludingGravity.x * 10;
+		ay = event.accelerationIncludingGravity.y * 10;
 		$("#accelerationX").innerHTML = e.accelerationIncludingGravity.x;
 		$("#accelerationY").innerHTML = e.accelerationIncludingGravity.y;
 		$("#accelerationZ").innerHTML = e.accelerationIncludingGravity.z;
