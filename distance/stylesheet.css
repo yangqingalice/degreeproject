@@ -1,0 +1,51 @@
+/*general style*/
+
+
+
+#just-a-spacer{
+   height:3000px;
+}
+
+
+
+/*div start position*/
+
+.mydivs {
+  background-color: black;
+     position:fixed;
+}
+
+#mydiv1{
+   left: 45%;
+   width: 30px;
+   height: 30px;
+     opacity: 0.1;
+}
+
+#mydiv2{
+   left: 30%;
+   width: 100px;
+   height: 100px;
+     opacity: 0.2;
+}
+
+#mydiv3{
+   left: 25%;
+   width: 250px;
+   height: 250px;
+     opacity: 0.8;
+}
+
+#mydiv4{
+  left: 40%;
+  width: 400px;
+  height: 400px;
+  opacity: 0.9;
+}
+
+#mydiv5{
+   left: 45%;
+   width: 200px;
+   height: 200px;
+  opacity: 0.6;
+}
