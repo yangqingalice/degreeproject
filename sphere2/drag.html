@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Sphere</title>
+<style>
+body {
+	font-family: helvetica, arial, sans serif;
+}
+.sphere {
+	position: relative;
+	width: 50px;
+	height: 50px;
+	border-radius: 50px;
+}
+
+#sphere1 {
+	background-color: red;
+}
+
+#sphere2 {
+	background-color: yellow;
+}
+
+#sphere3 {
+	background-color: green;
+}
+
+#sphere5 {
+	background-color: blue;
+}
+
+#sphere6 {
+	background-color: purple;
+}
+
+
+
+</style>
+</head>
+
+<body>
+
+<div class="sphere" id="sphere1" draggable="true"></div>
+<div class="sphere" id="sphere2" draggable="true"></div>
+<div class="sphere" id="sphere3" draggable="true"></div>
+<div class="sphere" id="sphere4" draggable="true"></div>
+<div class="sphere" id="sphere5" draggable="true"></div>
+<div class="sphere" id="sphere6" draggable="true"></div>
+
+
+<p id="demo"></p>
+
+<script type="text/javascript">
+
+var x = e.pageX - 25 + "px";
+var y = e.pageY - 25 + "px";
+
+$(".sphere").ondragover = function(){
+
+}
+
+
+</script>
+
+</body>
+</html>
