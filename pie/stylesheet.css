@@ -1,0 +1,31 @@
+.pie {
+  width: 200vw;
+  height: 200vw;
+  position: fixed;
+  left: -50vw;
+  margin-top: 50vh;
+  top: -100vw;
+  border-radius: 50%;
+  background-color: yellowgreen;
+  background-image: linear-gradient(to right, transparent 50%, #655 0);
+}
+
+@keyframes spin {
+  to { transform: rotate(.5turn); }
+}
+
+@keyframes bg {
+  50% { background: #655; }
+}
+
+.pie::before {
+  content: '';
+  display: block;
+  margin-left: 50%;
+  height: 100%;
+  border-radius: 0 100% 100% 0 / 50%;
+  background-color: inherit;
+  transform-origin: left;
+  animation: spin 3s linear infinite,
+             bg 6s step-end infinite;
+}
