@@ -43,45 +43,38 @@ img {
 
 .exhibition {
   position:fixed;
+  left: -100vw;
 }
 
 #exploratory_works{
-  left: 10%;
   width: 350px;
 }
 
 #marginalia{
-  left: 25%;
   width: 450px;
 }
 
 #jackie_ferrara{
-  left: 45%;
   width: 250px;
 }
 
 #gary_simmons{
-  left: 65%;
   width: 300px;
 }
 
 #amy_sillman {
-  left: 15%;
   width: 300px;
 }
 
 #jackson_mac_low {
-  left: 35%;
   width: 240px;
 }
 
 #mateo {
-  left: 50%;
   width: 400px;
 }
 
 #where {
-  left: 40%;
   width: 300px;
 }
 

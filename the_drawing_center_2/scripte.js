@@ -1,6 +1,14 @@
 $(document).ready(function(){
 
 window.scrollTo(0, 1000);
+$(".l10").animate({left: "10vw"}, 1600);
+$(".l15").animate({left: "15vw"}, 1550);
+$(".l25").animate({left: "25vw"}, 1450);
+$(".l35").animate({left: "35vw"}, 1400);
+$(".l40").animate({left: "40vw"}, 1350);
+$(".l45").animate({left: "45vw"}, 1300);
+$(".l50").animate({left: "50vw"}, 1250);
+$(".l65").animate({left: "65vw"}, 1200);
 
 		$(window).scroll(function() {
 
