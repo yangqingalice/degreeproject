@@ -45,23 +45,27 @@ $(document).ready(function(){
 	  });
 
 		$(window).scroll(function() {
+
+			var s = $(window).scrollTop();
+
 				 $("#exploratory_works").css({
-				 "top": window.innerHeight/7 + $(window).scrollTop()*1.2 - 550+ "px"
+				 "top": window.innerHeight/7 + s*1.2 - 550 + "px"
 				 });
 				 $("#marginalia").css({
-				 "top": window.innerHeight/9 + $(window).scrollTop()*1.8 - 650+ "px"
+				 "top": window.innerHeight/9 + s*1.8 - 650 + "px"
 				 });
 				 $("#jackie_ferrara").css({
-				 "top": window.innerHeight/6 + $(window).scrollTop()*1.1 - 450+ "px"
+				 "top": window.innerHeight/6 + s*1.1 - 450 + "px"
 				 });
 				 $("#gary_simmons").css({
-				"top": window.innerHeight/6 + $(window).scrollTop()*0.8 - 450+ "px"
+				"top": window.innerHeight/6 + s*0.8 - 450 + "px"
 				});
 
-				if($(window).scrollTop() > 350 && $(window).scrollTop() < 700){
+				if(s > 350 && s < 700){
 					$(".section").hide();
 					$("#current").show();
 				}
+				
 
 				else {
 					$(".section").hide();

@@ -1,0 +1,140 @@
+/*general style*/
+
+
+
+#just-a-spacer{
+   height:2700px;
+}
+
+
+.time {
+  position: absolute;
+  z-index: +4;
+  right: 0px;
+  width: 200px;
+  padding: 5px;
+  background-color: #00a160;
+  color: white;
+}
+
+#current {
+  top: 1100px;
+}
+
+#past {
+  top: 100px
+}
+
+#upcoming {
+  top: 2100px;
+}
+
+
+/*div start position*/
+
+img {
+  width: 100%;
+}
+
+.exhibition {
+  position:fixed;
+}
+
+#exploratory_works{
+  left: 10%;
+  width: 350px;
+}
+
+#marginalia{
+  left: 25%;
+  width: 450px;
+}
+
+#jackie_ferrara{
+  left: 45%;
+  width: 250px;
+}
+
+#gary_simmons{
+  left: 65%;
+  width: 300px;
+}
+
+#amy_sillman {
+  left: 15%;
+  width: 300px;
+}
+
+#jackson_mac_low {
+  left: 35%;
+  width: 240px;
+}
+
+#mateo {
+  left: 50%;
+  width: 400px;
+}
+
+#where {
+  left: 40%;
+  width: 300px;
+}
+
+.title {
+  font-family: Garamond;
+  color: white;
+  background-color: #00a160;
+  padding: 5px;
+  display: none;
+}
+
+.exhibition:hover {
+  z-index: +2;
+}
+
+
+/* background */
+
+#pattern {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: -1;
+  width: 100vw;
+  height: 100px;
+  background-color: white;
+}
+
+.line {
+  position: relative;
+  width: 100vw;
+  height: 2px;
+  background-color: #dfdfdf;
+  margin-bottom: 1.5vh;
+}
+
+#line500 {
+  position: absolute;
+  top: 500px;
+  background-color: red;
+}
+#line1000 {
+  position: absolute;
+  top: 1000px;
+  background-color: red;
+}
+#line1500 {
+  position: absolute;
+  top: 1500px;
+  background-color: red;
+}
+#line2000 {
+  position: absolute;
+  top: 2000px;
+  background-color: red;
+}
+#line2500 {
+  position: absolute;
+  top: 2500px;
+  background-color: red;
+}
