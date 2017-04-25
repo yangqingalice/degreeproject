@@ -42,4 +42,24 @@ $(".image").mouseout(function(){
 });
 
 
+$(".exhibition").click(function(){
+	$(".l80").animate({left: "80vw"}, 500);
+	$(".l75").animate({left: "75vw"}, 800);
+	$(".info").animate({left: "-40vw"}, 800);
+	$(this).next().animate({left: "20vw"}, 800);
+});
+
+$(".time").click(function(){
+	$(".info").animate({left: "-40vw"}, 800);
+	$(".l10").animate({left: "10vw"}, 800);
+	$(".l15").animate({left: "15vw"}, 750);
+	$(".l25").animate({left: "25vw"}, 650);
+	$(".l35").animate({left: "35vw"}, 600);
+	$(".l40").animate({left: "40vw"}, 550);
+	$(".l45").animate({left: "45vw"}, 500);
+	$(".l50").animate({left: "50vw"}, 450);
+	$(".l65").animate({left: "65vw"}, 400);
+
+});
+
 });

@@ -1,6 +1,9 @@
 /*general style*/
 
-
+#exhibitions {
+  position: absolute;
+  background-color: grey;
+}
 
 #just-a-spacer{
    height:2700px;
@@ -8,8 +11,10 @@
 
 
 .time {
+  font-size: 16px;
+  font-family: Garamond;
   position: absolute;
-  z-index: +4;
+  z-index: +5;
   right: 0px;
   width: 200px;
   padding: 5px;
@@ -82,6 +87,7 @@ img {
 
 .title {
   font-family: Garamond;
+  font-size: 16px;
   color: white;
   background-color: #00a160;
   padding: 5px;
@@ -89,9 +95,74 @@ img {
 }
 
 .exhibition:hover {
-  z-index: +2;
+  z-index: +4;
 }
 
+
+/* info */
+
+.info {
+  font-family: Garamond;
+  width: 30vw;
+  height: 90vh;
+  background-color: white;
+  z-index: +3;
+  position: fixed;
+  left: -40vw;
+  top: 5vh;
+  overflow-x: auto;
+}
+
+h1 {
+  font-weight: normal;
+  position: relative;
+  font-size: 28px;
+  left: 3vw;
+  top: 5vh;
+  padding: 5px;
+  padding-left: 2vw;
+  background-color: #00a160;
+  color: white;
+}
+
+h2 {
+  font-family: Garamond;
+  font-weight: bold;
+  font-size: 14px;
+  color: #00a160;
+  position: relative;
+  top: 6vh;
+  left: 5vw;
+}
+
+p {
+  font-size: 16px;
+  width: 20vw;
+  margin-top: 0;
+}
+
+.text {
+  width: 22vw;
+  position: relative;
+  top: 8vh;
+  left: 5vw;
+  overflow-y: auto;
+  height: 60vh;
+}
+
+.pic {
+  position: fixed;
+  top: 5vh;
+  left: 40vw;
+  height: 90vh;
+  width: 30vw;
+  background-color: white;
+  overflow-y: auto;
+}
+
+.img {
+  display: inline-block;
+}
 
 /* background */
 
