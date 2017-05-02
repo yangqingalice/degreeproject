@@ -1,9 +1,41 @@
-/*general style*/
+/* navigation menu */
 
-#exhibitions {
-  position: absolute;
-  background-color: grey;
+#menuicon {
+  position: fixed;
+  z-index: +7;
+  top: 15px;
+  left: 15px;
+  transform: rotate(0deg);
 }
+
+.icon {
+  width: 40px;
+  height: 5px;
+  margin-bottom: 8px;
+  background-color: #00a160
+}
+
+#menuicon:hover {
+  cursor: pointer;
+  cursor: hand;
+}
+
+#menu {
+  position: fixed;
+  z-index: +7;
+  top: 10vh;
+  left: 15px;
+  height: 600px;
+  width: 200px;
+  background-color: white;
+  border: 1px solid grey;
+  display: none;
+
+}
+
+/* scroll */
+
+
 
 #just-a-spacer{
    height:2700px;
@@ -37,9 +69,6 @@
 
 /*div start position*/
 
-img {
-  width: 100%;
-}
 
 .exhibition {
   position:fixed;
@@ -89,6 +118,8 @@ img {
 
 .exhibition:hover {
   z-index: +4;
+  cursor: pointer;
+  cursor: hand;
 }
 
 
@@ -96,24 +127,25 @@ img {
 
 .info {
   font-family: Garamond;
-  width: 30vw;
-  height: 90vh;
+  width: 900px;
+  height: 85vh;
   background-color: white;
-  z-index: +3;
+  z-index: +6;
   position: fixed;
-  left: -40vw;
-  top: 5vh;
-  overflow-x: auto;
+  left: -1000px;
+  top: 10vh;
+  display: none;
 }
 
 h1 {
   font-weight: normal;
   position: relative;
+  font-family: Garamond;
   font-size: 28px;
-  left: 3vw;
-  top: 5vh;
+  left: 35px;
+  top: 0px;
   padding: 5px;
-  padding-left: 2vw;
+  padding-left: 28px;
   background-color: #00a160;
   color: white;
 }
@@ -124,37 +156,81 @@ h2 {
   font-size: 14px;
   color: #00a160;
   position: relative;
-  top: 6vh;
-  left: 5vw;
+  top: 5px;
+  left: 63px;
+}
+
+.close {
+  position: relative;
+  top: 5px;
+  left: 870px;
+  font-family: Garamond;
+  font-size: 28px;
+  color: #00a160;
+  width: 20px;
+  height: 30px;
+}
+
+.close:hover {
+  cursor: pointer;
+  cursor: hand;
 }
 
 p {
+  font-family: Garamond;
   font-size: 16px;
-  width: 20vw;
+  width: 280px;
   margin-top: 0;
 }
 
-.text {
-  width: 22vw;
+.scroll {
   position: relative;
-  top: 8vh;
-  left: 5vw;
-  overflow-y: auto;
-  height: 60vh;
+  overflow-x: auto;
+  width: 780px;
+  left: 63px;
+  top: -35px;
 }
 
-.pic {
-  position: fixed;
-  top: 5vh;
-  left: 40vw;
-  height: 90vh;
-  width: 30vw;
-  background-color: white;
-  overflow-y: auto;
+.text1 {
+  width: 280px;
+  height: 410px;
+  position: relative;
+  top: 70px;
+  left: 0px;
 }
 
-.img {
+.text2 {
+  width: 280px;
+  height: 410px;
+  position: relative;
+  top: -340px;
+  left: 307px;
+}
+
+.more {
+  position: relative;
+  height: 410px;
+
+  top: -760px;
+  left: 677px;
+}
+
+.moreimage {
   display: inline-block;
+  height: 410px;
+}
+
+#amy_sillman_image {
+  width: 2660px;
+}
+
+.image {
+  display: inline-block;
+  width: 100%;
+}
+
+span {
+  font-style: italic;
 }
 
 /* background */
@@ -174,7 +250,7 @@ p {
   width: 100vw;
   height: 2px;
   background-color: #dfdfdf;
-  margin-bottom: 1.5vh;
+  margin-top: 1.5vh;
 }
 
 #line500 {

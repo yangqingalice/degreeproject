@@ -11,9 +11,7 @@ $(".l50").animate({left: "50vw"}, 1250);
 $(".l65").animate({left: "65vw"}, 1200);
 
 		$(window).scroll(function() {
-
 			var s = $(window).scrollTop();
-
 				 $("#exploratory_works").css({
 				 "top": s*1.2 - 1050 + "px"
 				 });
@@ -38,8 +36,21 @@ $(".l65").animate({left: "65vw"}, 1200);
 				$("#where").css({
 			 "top": s*0.8 - 1250 + "px"
 			 });
+		});
 
 
+		var x = 0;
+		$("#menuicon").click(function(){
+		  x++;
+			if (x % 2 !== 0) {
+			$(".info").animate({left: "+=200px"}, 400);
+			$(".exhibition").animate({left: "+=200px"}, 400);
+			$("#menu").show();
+		} else {
+			$(".info").animate({left: "-=200px"}, 400);
+			$(".exhibition").animate({left: "-=200px"}, 400);
+			$("#menu").hide();
+		}
 		});
 
 $(".image").mouseover(function(){
@@ -52,13 +63,18 @@ $(".image").mouseout(function(){
 
 $(".exhibition").click(function(){
 	$(".l80").animate({left: "80vw"}, 500);
-	$(".l75").animate({left: "75vw"}, 800);
-	$(".info").animate({left: "-40vw"}, 800);
-	$(this).next().animate({left: "20vw"}, 800);
+	$(".l75").animate({left: "75vw"}, 700);
+	$(".info").hide();
+	$(".info").animate({left: "-1000px"}, 700);
+	$(this).next().show();
+	$(this).next().animate({left: "70px"}, 700);
+	$("#menu").hide();
+	x = 2;
 });
 
-$(".time").click(function(){
-	$(".info").animate({left: "-40vw"}, 800);
+$(".close").click(function(){
+	$(".info").animate({left: "-1000px"}, 600);
+	$(".info").hide();
 	$(".l10").animate({left: "10vw"}, 800);
 	$(".l15").animate({left: "15vw"}, 750);
 	$(".l25").animate({left: "25vw"}, 650);
@@ -67,7 +83,13 @@ $(".time").click(function(){
 	$(".l45").animate({left: "45vw"}, 500);
 	$(".l50").animate({left: "50vw"}, 450);
 	$(".l65").animate({left: "65vw"}, 400);
-
+	$("#menu").hide();
+	x = 2;
 });
+
+
+
+
+
 
 });
