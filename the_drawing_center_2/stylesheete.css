@@ -12,7 +12,7 @@
   width: 40px;
   height: 5px;
   margin-bottom: 8px;
-  background-color: #00a160
+  background-color: #00a160;
 }
 
 #menuicon:hover {
@@ -25,12 +25,25 @@
   z-index: +7;
   top: 10vh;
   left: 15px;
-  height: 600px;
-  width: 200px;
+  height: 290px;
+  width: 150px;
   background-color: white;
-  border: 1px solid grey;
   display: none;
+}
 
+#menu p {
+  position: relative;
+  left: 20px;
+  font-family: Garamond;
+  font-size: 16px;
+  margin-top: 20px;
+  color: #00a160;
+}
+
+#menu p:hover {
+  left: 40px;
+  cursor: pointer;
+  cursor: hand;
 }
 
 /* scroll */
@@ -127,12 +140,12 @@
 
 .info {
   font-family: Garamond;
-  width: 900px;
+  width: 720px;
   height: 85vh;
   background-color: white;
   z-index: +6;
   position: fixed;
-  left: -1000px;
+  left: -800px;
   top: 10vh;
   display: none;
 }
@@ -163,7 +176,7 @@ h2 {
 .close {
   position: relative;
   top: 5px;
-  left: 870px;
+  left: 670px;
   font-family: Garamond;
   font-size: 28px;
   color: #00a160;
@@ -186,10 +199,12 @@ p {
 .scroll {
   position: relative;
   overflow-x: auto;
-  width: 780px;
+  width: 590px;
   left: 63px;
   top: -35px;
+  cursor: url('right_03.ico'), pointer;
 }
+
 
 .text1 {
   width: 280px;
@@ -217,11 +232,11 @@ p {
 
 .moreimage {
   display: inline-block;
-  height: 410px;
+  height: 360px;
 }
 
 #amy_sillman_image {
-  width: 2660px;
+  width: 2460px;
 }
 
 .image {

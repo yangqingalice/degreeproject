@@ -46,45 +46,30 @@
   cursor: hand;
 }
 
-/* content */
+/* scroll */
 
-.event {
+#scroll {
+  position: absolute;
+  width: 500vw;
+  height: 40vw;
+  left: 0px;
+  margin-top: 50vh;
+  top: -20vw;
+  background-color: green;
+}
+
+.item {
   position: relative;
-  width: 900px;
-  height: 450px;
-  left: 100px;
-  background-color: white;
-  border: 1px solid grey;
-  margin-top: 60px;
+  display: inline-block;
+  width: 15vw;
+  height: 40vw;
+  margin: 0;
+}
+
+.item img {
+  height: 100%;
+}
+
+.item:hover {
   z-index: +2;
-}
-
-#walk_through_4 {
-  margin-bottom: 100px;
-}
-
-#year {
-  font-size: 16px;
-  font-family: Garamond;
-  position: fixed;
-  top: 200px;
-  right: 100px;
-  width: 100px;
-  padding: 5px;
-  background-color: #00a160;
-  color: white;
-  z-index: +3;
-}
-
-#time {
-    font-size: 16px;
-    font-family: Garamond;
-    position: fixed;
-    top: 200px;
-    right: 0px;
-    width: 80px;
-    padding: 5px;
-    background-color: #00a160;
-    color: white;
-    z-index: +3;
 }

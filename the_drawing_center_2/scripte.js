@@ -43,12 +43,12 @@ $(".l65").animate({left: "65vw"}, 1200);
 		$("#menuicon").click(function(){
 		  x++;
 			if (x % 2 !== 0) {
-			$(".info").animate({left: "+=200px"}, 400);
-			$(".exhibition").animate({left: "+=200px"}, 400);
+			$(".info").animate({left: "+=100px"}, 400);
+			$(".exhibition").animate({left: "+=100px"}, 400);
 			$("#menu").show();
 		} else {
-			$(".info").animate({left: "-=200px"}, 400);
-			$(".exhibition").animate({left: "-=200px"}, 400);
+			$(".info").animate({left: "-=100px"}, 400);
+			$(".exhibition").animate({left: "-=100px"}, 400);
 			$("#menu").hide();
 		}
 		});
@@ -67,7 +67,7 @@ $(".exhibition").click(function(){
 	$(".info").hide();
 	$(".info").animate({left: "-1000px"}, 700);
 	$(this).next().show();
-	$(this).next().animate({left: "70px"}, 700);
+	$(this).next().animate({left: "140px"}, 700);
 	$("#menu").hide();
 	x = 2;
 });

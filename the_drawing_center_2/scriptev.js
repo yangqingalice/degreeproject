@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-window.scrollTo(0, 1000);
+window.scrollTo(0, 2900);
 
 $(window).scroll(function() {
 	var s = $(window).scrollTop();
@@ -32,8 +32,21 @@ $(window).scroll(function() {
   } if (s>=3940 && s<4364) {
 		$("#year").text("May 31 2017");
 		$("#time").text("6:30PM");
-  } 
+  }
 
+});
+
+
+var x = 0;
+$("#menuicon").click(function(){
+	x++;
+	if (x % 2 !== 0) {
+	$(".event").animate({left: "+=100px"}, 400);
+	$("#menu").show();
+} else {
+	$(".event").animate({left: "-=100px"}, 400);
+	$("#menu").hide();
+}
 });
 
 });
