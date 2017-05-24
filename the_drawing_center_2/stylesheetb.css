@@ -1,3 +1,7 @@
+a {
+  text-decoration: none;
+}
+
 /* navigation menu */
 
 #menuicon {
@@ -6,6 +10,7 @@
   top: 15px;
   left: 15px;
   transform: rotate(0deg);
+  margin: 0;
 }
 
 .icon {
@@ -51,18 +56,17 @@
 #scroll {
   position: absolute;
   width: 500vw;
-  height: 40vw;
+  height: 90vh;
   left: 0px;
-  margin-top: 50vh;
-  top: -20vw;
+  top: 9.4vh;
   background-color: green;
 }
 
 .item {
   position: relative;
   display: inline-block;
-  width: 15vw;
-  height: 40vw;
+  width: 180px;
+  height: 90vh;
   margin: 0;
 }
 
@@ -70,6 +74,38 @@
   height: 100%;
 }
 
+.item img:hover {
+  cursor: pointer;
+  cursor: hand;
+}
+
 .item:hover {
   z-index: +2;
+}
+
+.info {
+  width: 360px;
+  height: 90vh;
+  background-color: white;
+  position: absolute;
+  top: 0;
+  left: 400px;
+  display: none;
+  z-index: -1;
+}
+
+.close {
+  position: relative;
+  top: 5px;
+  left: 320px;
+  font-family: Garamond;
+  font-size: 28px;
+  color: #00a160;
+  width: 20px;
+  height: 30px;
+}
+
+.close:hover {
+  cursor: pointer;
+  cursor: hand;
 }

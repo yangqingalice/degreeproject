@@ -13,14 +13,28 @@ $(document).ready(function(){
 		$("#menuicon").click(function(){
 		  x++;
 			if (x % 2 !== 0) {
-			$(".info").animate({left: "+=100px"}, 400);
-			$(".exhibition").animate({left: "+=100px"}, 400);
 			$("#menu").show();
 		} else {
-			$(".info").animate({left: "-=100px"}, 400);
-			$(".exhibition").animate({left: "-=100px"}, 400);
 			$("#menu").hide();
 		}
+		});
+
+		var a = 0;
+		$(".cover").click(function(){
+			a++;
+			if (a % 2 !== 0) {
+			$(this).next().show();
+		} else {
+			$(this).next().hide();
+		}
+		$(this).style.filter = "grayscale(0%)";
+		});
+
+
+
+		$(".close").click(function(){
+			$(".info").hide();
+			a = 0;
 		});
 
 

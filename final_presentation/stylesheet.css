@@ -1,0 +1,276 @@
+/* remove built-in styling */
+
+html, html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+img {
+  width: 100%;
+}
+
+@font-face {
+  src: url('Univers-CondensedBold.ttf');
+  font-family: "univers";
+}
+
+html, body {
+  font-family: Courier;
+  font-size: 14px;
+}
+
+/*        */
+#click {
+  position: fixed;
+  width: 5px;
+  height: 100vh;
+  z-index: +5;
+}
+
+#menu {
+  position: fixed;
+  width: 200px;
+  height: 100vh;
+  left: -200px;
+  padding-top: 20px;
+  z-index: +4;
+}
+
+h1 {
+  position: relative;
+  font-family: univers;
+  font-size: 60px;
+  text-align: center;
+  top: 40vh;
+}
+
+#menu p {
+  line-height: 2;
+  padding: 5px;
+  opacity: 0.5;
+}
+
+#menu p:hover {
+  opacity: 1;
+}
+
+#q1, #q2, #stone, #blist, #experiment, #tdco, #tdcs,  #tdcn1, #tdcn2, #tdcn3 {
+  margin-left: 16px;
+}
+
+.xyline {
+  position: absolute;
+  width: 300px;
+  height: 5px;
+  background-color: black;
+  left: 50vw;
+  margin-left: -150px;
+}
+
+#xyline1 {
+  top: 950px;
+}
+
+#xyline2 {
+  top: 980px;
+}
+#xyline3 {
+  top: 1010px;
+}
+
+#zline {
+  position: absolute;
+  width: 5px;
+  height: 300px;
+  left: 50vw;
+  margin-left: -2.5px;
+  top: 730px;
+  background-color: black;
+  display: none;
+}
+
+.question {
+  position: absolute;
+  font-family: univers;
+  font-size: 40px;
+  left: 50vw;
+  margin-left: -350px;
+}
+
+#question1 {
+  top: 1540px;
+}
+
+#question2{
+  top: 1590px;
+}
+
+#question3 {
+  top: 3000px;
+}
+
+#stoneimage {
+  position: absolute;
+  top: 2100px;
+  width: 70vw;
+  left: 15vw;
+}
+
+.button {
+  position: absolute;
+  top: 2100px;
+  width: 30vw;
+  height: 400px;
+}
+
+#button1 {
+  left: 20vw;
+}
+
+#button2 {
+  left: 50vw;
+}
+
+#behaviorlist {
+  font-family: univers;
+  font-size: 24px;
+  line-height: 2;
+  position: absolute;
+  top: 3500px;
+  left: 30vw;
+}
+
+#confuselist {
+  font-family: univers;
+  font-size: 24px;
+  line-height: 2;
+  position: absolute;
+  top: 3500px;
+  left: 55vw;
+}
+
+#dbclick2, #click2, #drag2, #scroll2 {
+  display: none;
+}
+
+#elist {
+  font-family: univers;
+  font-size: 24px;
+  line-height: 2;
+  position: absolute;
+  top: 4400px;
+  left: 50vw;
+  margin-left: -80px;
+  text-align: center;
+}
+
+#elist p:hover {
+  opacity: 0.5;
+}
+
+span:hover {
+  opacity: 0.5;
+}
+
+#tdc1 {
+  position: absolute;
+  top: 5300px;
+  left: 50vw;
+  margin-left: -50px;
+  width: 100px;
+}
+
+#tdc_el {
+  position: absolute;
+  top: 6000px;
+  left: 50vw;
+  margin-left: -100px;
+  width: 200px;
+}
+
+#tdc_al {
+  position: absolute;
+  top: 6700px;
+  left: 50vw;
+  margin-left: -100px;
+  width: 200px;
+}
+
+#tdc2 {
+  position: absolute;
+  top: 7400px;
+  left: 50vw;
+  margin-left: -100px;
+  width: 200px;
+}
+
+#tdc3 {
+  position: absolute;
+  top: 8100px;
+  left: 50vw;
+  margin-left: -100px;
+  width: 200px;
+}
+
+/* guide */
+
+#footnote {
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  text-align: right;
+  opacity: 0.5;
+}
+
+#spacer {
+  position: absolute;
+  width: 100vw;
+  height: 9000px;
+  background-color: white;
+  z-index: -1;
+}
+
+#height {
+  position: fixed;
+  top: 5px;
+  left: 50vw;
+}
