@@ -137,6 +137,13 @@ $("#scroll1").click(function(){
   $("#scroll2").show();
 });
 
+$("#swipe1").click(function(){
+  $("#swipe2").show();
+});
+
+
+
+
 $("#title").click(function (){
   $('html, body').animate({
     scrollTop: 0},1000);

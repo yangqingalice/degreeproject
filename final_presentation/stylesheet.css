@@ -188,7 +188,7 @@ h1 {
   left: 55vw;
 }
 
-#dbclick2, #click2, #drag2, #scroll2 {
+#dbclick2, #click2, #drag2, #scroll2, #swipe2 {
   display: none;
 }
 
