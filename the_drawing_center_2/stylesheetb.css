@@ -64,7 +64,6 @@ a {
   height: 90vh;
   left: 0px;
   top: 9.4vh;
-  background-color: green;
 }
 
 .item {
@@ -104,7 +103,7 @@ a {
   background-color: white;
   position: absolute;
   top: 0;
-  left: 400px;
+  left: 60vh;
   display: none;
   z-index: -1;
 }

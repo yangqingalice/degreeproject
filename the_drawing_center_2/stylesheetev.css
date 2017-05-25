@@ -140,6 +140,7 @@ h2 {
 
 .ticket:hover {
   font-weight: bold;
+  cursor: pointer;
 }
 
 #pattern {
@@ -158,4 +159,13 @@ h2 {
   height: 2px;
   background-color: #dfdfdf;
   margin-top: 1.5vh;
+}
+
+#tba {
+  height: 100px;
+  margin-bottom: 60px;
+}
+
+#tba h2 {
+  top: 40px;
 }
