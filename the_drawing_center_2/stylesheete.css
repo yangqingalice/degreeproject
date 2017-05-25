@@ -1,3 +1,8 @@
+html, body, h1, h2, h3, p {
+  font-family: Garamond;
+  font-weight: 400;
+}
+
 a {
   text-decoration: none;
 }
@@ -225,10 +230,17 @@ p {
   left: 307px;
 }
 
+.text3 {
+  width: 280px;
+  height: 410px;
+  position: relative;
+  top: -750px;
+  left: 614px;
+}
+
 .more {
   position: relative;
   height: 410px;
-
   top: -760px;
   left: 677px;
 }
@@ -241,6 +253,7 @@ p {
 #amy_sillman_image {
   width: 2460px;
 }
+
 
 .image {
   display: inline-block;

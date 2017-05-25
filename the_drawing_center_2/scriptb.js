@@ -27,7 +27,7 @@ $(document).ready(function(){
 		} else {
 			$(this).next().hide();
 		}
-		$(this).style.filter = "grayscale(0%)";
+
 		});
 
 

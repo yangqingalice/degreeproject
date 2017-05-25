@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-window.scrollTo(0, 2900);
+window.scrollTo(0, 3900);
 
 $(window).scroll(function() {
 	var s = $(window).scrollTop();

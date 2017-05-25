@@ -1,3 +1,8 @@
+html, body, h1, h2, h3, p {
+  font-family: Garamond;
+  font-weight: 400;
+}
+
 a {
   text-decoration: none;
 }
@@ -57,7 +62,6 @@ a {
   height: 450px;
   left: 100px;
   background-color: white;
-  border: 1px solid grey;
   margin-top: 60px;
   z-index: +2;
 }
@@ -90,4 +94,68 @@ a {
     background-color: #00a160;
     color: white;
     z-index: +3;
+}
+
+.eimage {
+  height: 400px;
+  position: relative;
+  top: 25px;
+  left: 25px;
+}
+.event p {
+  position: relative;
+  top: -400px;
+  left: 450px;
+  width: 425px;
+  font-family: Garamond;
+  font-size: 16px;
+
+}
+
+h1 {
+  position: relative;
+  top: -400px;
+  left: 450px;
+  font-family: Garamond;
+  font-size: 40px;
+  color: #00a160;
+  margin-bottom: 0;
+}
+
+h2 {
+  position: relative;
+  top: -400px;
+  left: 450px;
+  font-family: Garamond;
+  font-size: 16px;
+  color: #00a160;
+  margin: 0;
+  line-height: 1;
+  margin-bottom: 48px;
+}
+
+.ticket {
+  color: #00a160;
+}
+
+.ticket:hover {
+  font-weight: bold;
+}
+
+#pattern {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: -1;
+  width: 100vw;
+  height: 100px;
+  background-color: white;
+}
+
+.line {
+  position: relative;
+  width: 100vw;
+  height: 2px;
+  background-color: #dfdfdf;
+  margin-top: 1.5vh;
 }
